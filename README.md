@@ -1,3 +1,3 @@
 ## [WORK IN PROGRESS] Modern Restaurant Theme based on TailwindCSS 
 
-![image](https://user-images.githubusercontent.com/76415683/226042445-e52fe793-f514-4ecc-b431-9b82430467a3.png)
+![image](https://user-images.githubusercontent.com/76415683/226085927-8793ca7f-1ca2-4485-8f8d-7086e787093a.png)
