@@ -111,9 +111,7 @@
 
 
 				<div class="col-span-6 items-center ml-0 md:ml-32">
-					<div class="flex">
-						<div class="text-6xl font-['Hurme-Bold'] max-w-xl">Delicious selection of countless dishes</div>
-					</div>
+					<div class="text-6xl mt-6 font-['Hurme-Bold'] max-w-xl">Delicious selection of countless dishes</div>
 
 					<div class="mt-6 max-w-xl font-['Hurme-SemiBold']">
 						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
@@ -122,10 +120,44 @@
 				</div>
 
 			</div>
+		</div>
+
+		<div id="about" class="mt-40">
+			<div class="grid grid-cols-1 md:grid-cols-5">
+				<div class="col-span-3 order-2 md:order-1">
+					<div class="text-6xl font-['Hurme-Bold'] max-w-xl">Our dishes are unique in the world</div>
+
+					<div class="mt-6 mb-20 max-w-3xl font-['Hurme-SemiBold']">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+						et dolore magna aliquyam erat, sed diam voluptua. 	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+					</div>
+
+					<NuxtLink to="#" class="bg-black text-white px-6 py-5 text-2xl font-['Hurme-Semi'] shadow-2xl rounded-3xl rounded-br-none">
+						View our dishes
+						<ArrowNarrowRightIcon class="inline mb-2 h-6 w-6 text-white ml-8" aria-hidden="true" />
+					</NuxtLink>
+				</div>
+
+				<div class="col-span-2 order-1 mt-24 md:mt-0 md:order-2">
+					<img class="max-w-screen-[17rem] -mt-40" alt="Stock Image" src="/images/stock-image-03.webp">
+				</div>
+			</div>
+		</div>
+
+		<div class="bg-black py-12 px-12 mt-14 shadow-2xl rounded-3xl rounded-br-none">
+			<div class="grid grid-cols-1 md:grid-cols-6">
+				<div class="col-span-4 text-white text-5xl md:text-8xl font-['Hurme-Bold']">Order your unique taste experience now</div>
+
+				<div class="col-span-2 mt-6 md:mt-0 flex md:justify-end items-center">
+					<NuxtLink to="#" class="md:mr-32 bg-blue-700 text-white px-6 py-5 text-2xl font-['Hurme-Semi'] shadow-2xl rounded-3xl rounded-br-none">
+						Go to order
+						<ArrowNarrowRightIcon class="inline mb-2 h-6 w-6 text-white ml-8" aria-hidden="true" />
+					</NuxtLink>
+				</div>
+			</div>
 
 
 		</div>
-
 	</div>
 </template>
 
